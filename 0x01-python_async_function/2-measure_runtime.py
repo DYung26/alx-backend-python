@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This module provides a function to measure the average time it takes 
+This module provides a function to measure the average time it takes
 to execute the wait_n coroutine.
 """
 import asyncio
