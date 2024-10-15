@@ -19,7 +19,7 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     Returns:
         List[float]: A list of random delays (sorted) that were waited for.
     """
-    random_delays = await async.io.gather(
+    random_delays = await asyncio.gather(
             *tuple(map(lambda _: wait_random(max_delay), range(n)))
     )
     return (sorted(random_delays))
