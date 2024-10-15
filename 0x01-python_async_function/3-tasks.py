@@ -4,7 +4,7 @@ This module provides a function to create an asyncio task
 that waits for a random delay.
 """
 import asyncio
-wait_random = ___import__.('0-basic_async_syntax').wait_random
+wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 def task_wait_random(max_delay: int) -> asyncio.Task:
