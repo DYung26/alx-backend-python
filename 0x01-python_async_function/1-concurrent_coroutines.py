@@ -4,7 +4,7 @@ This module provides an asynchronous function to wait for random delays
 and collect the results in a sorted list.
 """
 import asyncio
-import wait_random from 0-basic_async_syntax
+wait_random = __import__('0-basic_async_syntax').wait_random
 from typing import List
 
 
